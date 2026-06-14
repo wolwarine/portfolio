@@ -664,7 +664,7 @@
         </div>
         <div class="stat-item">
           <div class="stat-value" id="stat-lc"><span >1,572,868</span></div>
-          <div class="stat-label">LeetCode Ranking</div>
+          <div class="stat-label">LeetCode Rank</div>
         </div>
       </div>
     </section>
@@ -1078,7 +1078,7 @@
         const total = all?.find(x => x.difficulty === 'All')?.count;
         document.getElementById('stat-lc').textContent = total ?? '—';
       } catch {
-        document.getElementById('stat-lc').textContent = '—';
+        document.getElementById('stat-lc').textContent = '1,572,868';
       }
     }
   }
