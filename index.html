@@ -1056,7 +1056,7 @@
   /* ── LeetCode stats (public GraphQL API) ─────────────── */
   async function fetchLeetCode() {
     try {
-      const res = await fetch('https://leetcode-stats-api.herokuapp.com/wolwarine');
+      const res = await fetch('https://leetcode-stats-api.herokuapp.com/wolzin');
       if (!res.ok) throw new Error('failed');
       const data = await res.json();
       document.getElementById('stat-lc').textContent =
